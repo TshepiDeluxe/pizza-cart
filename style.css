@@ -1,0 +1,65 @@
+body {
+    background-color: pink;
+
+}
+
+.pizzas {
+    background-color: pink;
+    border-radius: 1em;
+}
+
+.pizza {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 1em;
+    margin: 5px;
+}
+
+.large {
+    background-color: red;
+}
+
+.medium {
+    background-color: darkorange;
+}
+
+.small {
+    background-color: yellow;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: goldenrod;
+}
+
+.align {
+    text-align: center;
+    border-radius: 1em;
+    background-color: goldenrod;
+    padding: 10px;
+
+}
+
+@media(min-width: 600px) {
+    .pizzas {
+        display: flex;
+    }
+
+    .largeContainer {
+        display: inline;
+    }
+}
+
+.cart {
+    border: 1px;
+    background-color: grey;
+    padding: 100px;
+    padding-left: 600px;
+    border-width: 800px;
+    border-radius: 1em;
+
+}
